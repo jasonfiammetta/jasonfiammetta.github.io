@@ -19,7 +19,8 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.png',
   paragraphOne: "I'm a software developer.",
-  paragraphTwo: 'I graduated from Northeastern University in 2019 with a BS in Computer Science and Mathematics.',
+  paragraphTwo:
+    'I graduated from Northeastern University in 2019 with a BS in Computer Science and Mathematics.',
   paragraphThree: 'I enjoy solving puzzles and creating things.',
   resume: '', // if no resume, the button will not show up
 };
@@ -31,27 +32,27 @@ export const projectsData = [
     img: 'paintbrush.jpg',
     title: 'Avant Gallery',
     info: 'An art gallery that allows users to post their artwork for the world to see.',
-    info2: 'Using AWS, and the rest of my tech stack',
-    url: 'https://drag-on-drop.github.io/Avant-Gallery-Client/#/',
+    info2: 'Using AWS, React and React Bootstrap, JavaScript, Axios',
+    url: 'https://drag-on-drop.github.io/Avant-Gallery-Client/',
     repo: 'https://github.com/Drag-on-Drop/Avant-Gallery-Client/', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    title: 'Forums R Us',
+    info: 'A place for users to post forum topics and chat with one another.',
+    info2: 'Using JavaScript, Handlebars, HTML/CSS, JQuery and AJAX',
+    url: 'https://jasonfiammetta.github.io/Forum-Client/',
+    repo: 'https://github.com/jasonfiammetta/Forum-Client', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    title: 'Tournament Bracket',
+    info: 'A tool for tournament directors to create brackets',
+    info2: 'Using Python, Django, JavaScript, and PostgreSQL',
+    url: 'https://jasonfiammetta.github.io/Tournament-Client/',
+    repo: 'https://github.com/jasonfiammetta/Tournament-Client', // if no repo, the button will not show up
   },
 ];
 
