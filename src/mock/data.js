@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: "I'm",
   name: 'Jason Fiammetta',
-  subtitle: 'I want to help.',
+  subtitle: 'and I want to help.',
   cta: 'About me',
 };
 
@@ -29,7 +29,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'paintbrush.jpg',
+    img: 'avant-gallery-screenshot.png',
     title: 'Avant Gallery',
     info: 'An art gallery that allows users to post their artwork for the world to see.',
     info2: 'Using AWS, React and React Bootstrap, JavaScript, Axios',
@@ -38,7 +38,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'forums-r-us-screenshot.png',
     title: 'Forums R Us',
     info: 'A place for users to post forum topics and chat with one another.',
     info2: 'Using JavaScript, Handlebars, HTML/CSS, JQuery and AJAX',
@@ -77,9 +77,4 @@ export const footerData = {
       url: 'https://github.com/jasonfiammetta',
     },
   ],
-};
-
-// Github start/fork buttons
-export const githubButtons = {
-  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
